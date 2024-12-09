@@ -46,6 +46,7 @@
 
 .title_container
     position: relative
+    margin-bottom: 128px
 
 h1
     font-weight: 600
@@ -53,7 +54,7 @@ h1
     text-align: center
     line-height: 80px
     text-transform: uppercase
-    z-index: 2
+    z-index: 2    
     .title_span
         font-style: italic
 
@@ -78,10 +79,37 @@ h1
     position: absolute
     top: 10px
     right: -6px
-    background-color: #fff
+    background-color: colors.$color-white
 
 .title_span_o_letter
     opacity: 0
     margin-left: 6px
-   
+
+
+// ================== FOOTER PART IN HEADER  ================== //
+
+.button_in_header_section
+    font-size: 20px
+    line-height: 24px   
+    font-weight: 400
+    padding: 12px 22px
+    font-family: Inter
+    background-color: colors.$color-white
+    border: 1px solid  colors.$color-black
+    border-radius: 8px
+    cursor: pointer
+
+
+.footer_part_in_header
+    position: relative
     
+    
+.images_container_to_footer_part_in_header
+    position: absolute
+    top: -172px
+    right: 272px
+
+.small_planet_footre_in_header
+    position: absolute
+    top: 214px
+    left: -10px

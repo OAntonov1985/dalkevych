@@ -3,7 +3,9 @@ import smallPlanet from "../../public/planets-logo/small_planet_in_header.png"
 import line from "../../public/lines/Vector 83.svg";
 import stars from "../../public/stars.png";
 import rightLine from "../../public/lines/Vector 70.svg";
-import point from "../../public/lines/point.svg"
+import point from "../../public/lines/point.svg";
+import leftLine from "../../public/lines/left_header_line.svg";
+import smallPlanetLeft from "../../public/planets-logo/small_planet_in_header_by_left.png"
 
 export default function Header() {
     return (
@@ -28,6 +30,13 @@ export default function Header() {
                 <div className="line_container_stars">
                     <img src={stars} alt="stars" />
                 </div>
+            </div>
+            <div className="footer_part_in_header">
+                <div className='images_container_to_footer_part_in_header'>
+                    <img src={leftLine} alt="left line" />
+                    <img src={smallPlanetLeft} alt="small planet" className='small_planet_footre_in_header' />
+                </div>
+                <button className='button_in_header_section'>Learn more</button>
             </div>
         </header>
     )
