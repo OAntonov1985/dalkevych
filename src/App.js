@@ -8,9 +8,9 @@ function App() {
                 <title>Dalkevych-studio</title>
                 <link rel="icon" href="./public/icons/logo-item.png" />
             </Helmet>
-            <main className="App">
+            <div className="container">
                 <Header />
-            </main>
+            </div>
         </>
     );
 }
